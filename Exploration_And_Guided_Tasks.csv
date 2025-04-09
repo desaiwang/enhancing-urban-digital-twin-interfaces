@@ -1,0 +1,473 @@
+participant id,b7d8f9e6-3a2c-4d5e-8f7a-1b2c3d4e5f6a,9c8b7a6d-5e4f-3g2h-1i0j-9k8l7m6n5o4p,4f5e6d7c-8b9a-1c2d-3e4f-5g6h7i8j9k0l,2a3b4c5d-6e7f-8g9h-0i1j-2k3l4m5n6o7p,7h8g9f0e-1d2c-3b4a-5z6y-7x8w9v0u1t2s," 5r6t7y8u-9i0o-1p2q-3r4s-5t6u7v8w9x0y",3d4e5f6g-7h8i-9j0k-1l2m-3n4o5p6q7r8s,1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p,8u9i0o1p-2q3r-4s5t-6u7v-8w9x0y1z2a3b,6c7d8e9f-0g1h-2i3j-4k5l-6m7n8o9p0q1r
+background,"Climate Resilience Officer, US","Research Assistant in Landscape Architecture/ Urban Analytics, Singapore","Post-Doctoral Researcher in Urban Analytics, Singapore","Urban Designer, US","Environmental Performance Specialist, US","Architect, Singapore","Environmental Specialist, US","Urban Environment Modeler, Singapore",Research Manager in Urban Studies. Singapore,"Urban Designer, US"
+experience w/ digital twin before,"not sure what it is, haven’t used it before","know what it is, have used it before a few times","know what it is, have used it before a few times","not sure what it is, haven’t used it before","know what is is, have used it before a few times","know what it is, haven’t used it before","know what it is, have used it before a few times","know what it is, have used it before a few times","know what it is, have used it before","not sure what it is, haven’t used it before"
+experience with data,"GIS platforms, custom tools developed in [redacted] to understand heat island (based on land surface temperature) as well as communities more at risk to extreme heat (includes demographic data like rental percentage or people without health insurance). 
+
+Mostly data tools are used internally, because a lot of times data is hard to explain to the public. 
+
+Purpose: want to use data to quantify existing conditions, and make arguments, and show results after changes","GIS platforms, analyzing image data in python with existing packages and custom scripts to identify colors and materials.
+(tool development).
+
+purpose: want to create tools for urban planners to create thermally comfortable places: while tree & shading is important. reveal the perhaps less straight-forward correlations between urban components and comfort. 
+
+Would also want this tool to share knowledge with the general public.","primarily work in python & R. R produces nice plots, lots of colleagues use GIS tools. 
+more ML pipelines in python. (tensor-fow & pytorch)",GIS data,"most of the tools at [redacted] are grasshopper based, but now there’s more scripting from ongoing research (especially thermal related projects)
+
+needs to be compatible with Rhino, because that’s the main tool for designers (central software to maintain for designers)
+
+For CFD simulations, need climatic data (epw/ radiation/ csv), and also make interpersonal assumptions (clothing level/ heart rate/ cbe comfort tool/ papers)=> micro-changes in assumptions can change results (did sensitivity analysis)","Singapore E-planner based on ArcGIS, 
+
+there are also tradeoffs that are difficult (for example building more densely to satisfy housing demand or create wind corridors for comfort), data driven design can better shed light onto what the tradeoffs are exactly and what the decisions entail","environmental simulations, cfd simulations for wind (enviMET, Eddy3D, simScale)
+
+thermal comfort simulations
+
+rhino/grasshopper/climate studio","Integrated Environmental Modeler (IEM), simulation software like TAS
+
+rhino/grasshopper/ladybug","GIS tools, python (especially geospatial data analysis)
+
+tool development, unity and html","have some background in data analysis, but most of the time leading projects and not carrying out the data collection or analysis himself
+
+worked with economist to demonstrate the impact of work (transit system/ residential project/ etc)"
+challenges,"coordinating between different agencies, which have very different agendas (for example how is agency of finance going to do about extreme heat)?even establishing baseline data, how to even go about understanding heat in city?
+
+[redacted] also outlines goals to understand effects of heat (on health, aquaculture, agriculture, air pollutants and chemical containment).","data collection. right now they are collecting the normal images and thermal images herself, which is time consuming. Also hard to collect weather information at the same time.
+
+consistency in the photos (mornings/afternoon). had to retake the photos in a specific time zone","data accessibility. there are challenges in getting data, expensive (time & human labor) to collect
+
+crowd-source is interesting (Mapillary), but they can only do so much. This is not necessarily accessible everywhere.
+
+processing side not so difficult (can build upon technology from other disciplines). now there’s a large focus on gpt, limited by current technology.
+
+application can be challenging as well. Always thinking about how tools can be used.",how can we demonstrate through data that vegetation/seating/lighting contribute to comfortable & engaging public realm? (quantifying information show impact of projects),"design input is important, but landscape/materiality (parameters related to design) information is harder to incorporate and computationally intensive to simulate
+
+interpersonal assumptions can change thermal comfort simulations a lot, so they are trying to understand them better and to tailor them to study sites (assume average person based on specific location demographics)","need engagement with human factors, which can be hard to capture in data
+
+currently use forms (Form-SG) and a lot of times people don’t feel incentives to participate. Surveys can be boring, and also can be challenging for older people to navigate
+
+getting proper data can also be challenging
+
+","A lot of times need to make assumptions about surface temperatures due to the lack of measured data (it is very difficult to gather data for a city for many hours), also assumptions on human factors (skin temperature, core temperature, clothing) has a big impact but there are also no completely scientific way to determine these assumptions
+
+Of course also computational constraints: it times a lot of time to run simulations with so many parameters","Weather prediction is challenging, when in the future should we optimize for? How to balance between ventilation and weather protection?
+
+A lot of times balancing trade-offs can be challenging (what should we optimize for). Data needs to highlight issues and see if there are opportunities
+
+stakeholders question models/simulations. but this offers options, and they are all under the same assumptions/uncertainties (can still offer a lot of insights).
+
+data inputs can be challenging. there are assumptions (ex. microclimate needs wind directions, takes from NEAA instead of exact location). Also experimenting with possibility of deploying their own sensors.
+
+model preparation is also difficult, accuracy is still a challenge. Also software interoperability needs to be improved (towards more standardized inputs)
+","make data-dense applications/platform useful for decision makers
+
+urban analytics can be hard to get started in, not as a straight-forward path as finance or computer science (with a bunch of gurus offering road maps). Constantly questioning how to communicate all this work to the audience (if I’m confused about what I’m doing then how can I convey my work to others?)
+
+definition of a digital twin can be confusing. No one really knows what it is.","establishing baseline data can be difficult, but also necessary to to create compelling narrative
+
+don’t have time for data-driven research or development, quite overwhelmed with projects"
+open exploration,"lots of acronyms that are not spelled out (inaccessible for tech developer/ maps person)
+
+would be great to have an info bar at the corner that explains the acronyms
+an overview of what people are looking at is also important, especially for people not familiar with NUS/ campus
+also wish that not only talks about what the data is, but also why it is important (“How would I explain this to a neighbor waiting outside the elevator?”)
+
+could be nice to include a compass on the map
+
+wish that [redacted] had access to such sensors, risk of vandalism
+
+notes that current tool is more intended for an experienced user (someone who has experience with similar platforms), need a bit of time to familiarize
+
+for their work specifically, the need for digital tools has to be more than just “this is a cool platform,” because a lot government actors are very busy, so platform needs to be aligned with end users (who is this platform for? and how do you influence the actor to support your goals?) Currently sees this platform for people to build the justification plans for their administrators. Also scale is an issue, since she works on state-level policy would need more city-level or district level rather than building level.
+
+If there are many groups of end users in mind, could be interesting to have different presets to lead these people to data that’s relevant for their work. For example: if you are x, start here; if you’re y, start here, so on and so forth.
+
+would like to see demographic data
+
+if there are indices then it should be clearly explained how these indices are derived (be more transparent with users)","nice to see 3d trees
+toggled between different view options, rotated platform
+
+PGPR hot spot studies, hard to see the improvements
+
+sidebar can cause problems (partially hidden?)
+
+explored thermal camera
+","pleasant looking
+
+legend was a bit harder to find, confused about different shapes for markers (not different enough?)
+
+would be good to have hint to how to navigate (zoom/pan)
+
+like the ability to see weather stations & different data.
+
+why are some data are not available?  → would like some explanation
+
+explored the top bar (hover text would be helpful)","exploring weather sensors: noticed that some are ground and some are roof
+
+could also be great to see data over a longer period of time (the course of the year for example, which would reveal seasonal patterns)
+
+road/public space data is missing currently
+
+explored tree data as well as thermal camera","exploring weather stations, noticed that there are a lot of them
+
+tried to switch between dates, checkout wind summary and noted that it was different to the graphs. Tried to use the lasso tool but wasn’t sure what it did, downloaded the graph.
+
+ noticed the legend at the bottom","explored weather stations, noted the extensiveness of the dataset and commented that this type of coverage would be difficult to achieve in the real world/ at an urban scale
+
+clicked left side bar/ expanded it and collapsed it
+different view types
+
+noticed that there’s missing data.
+
+seeing segmentation images for weather stations (wish there’s this for entirety of SG)
+
+thermal camera projected onto the surface
+
+campus is much more optimistic, it would be much more difficult to replicate in a HDB
+
+should have a description of what BEAM is
+
+would like textual explanations on hovers for icons in top bar","wondered about the source of 3d data
+
+explored the top nav bar, toggled on and off view settings
+
+explored microclimate maps, MET towers, weather stations.
+
+noticed that the charts are made using Plotly.js
+
+want more helpful explanations on what the buttons do, what BEAM is, or even details like sensor set up. A lot of the interactions are also not obvious at all.
+
+","controls are pretty intuitive (pan/zoom) for someone familiar with cad
+
+trees are not porous, which block visibility of other elements. Can this be improved?
+
+noticed floating buildings (not sitting on terrain)
+
+mentioned urban data platform for monitoring developed also at NUS by Yun Chao
+
+if want to support different workflows, then need to think about data interoperability -- do you need to support users uploading their own 3d models?
+
+didn’t realize there was a zoom to view button for thermal camera. also wondered why there are only 4 data points for the CREATE IR Camera thermal data -- were these chosen on purpose or? Can more information be synthesized - like noise map or irradiance map?","wondered what the tech stack/ 3d model is.
+
+wasn’t sure how to rotate: right click and drag.
+
+translucent buildings that’s outside context can be a bit confusing, maybe should be more transparent.
+
+commented that trees are hard to see. suggested using shadows/ambient occlusion to bring in depth can be helpful for visualization. Currently they blend into the background. Even adding a gradient towards the bottom can help.
+
+noticed shadow/detailing on buildings. Some buildings have more details (facade) than others, mention that notices this because  has previous modeling experience
+
+didn’t realize that needed to click a button to bring in surface temperature data for create tower.
+
+played with view settings. Toggled on and off 2d/3d, models. Wondered where the tree data comes from.","toggled between 2d and 3d views
+
+explored trees, as well as thermal cameras
+
+had a bit of difficult zooming/ rotating
+
+impressed by the comprehensiveness of data"
+weather station,"actions: clicking through tabs of different metrics (temperature, solar irradiance, wind, humidity)
+
+not sure what is solar irradiation
+wants more information (hover)","had some difficulty finding the thermal comfort data (main tab says sensors, wasn’t able to find weather stations)
+
+also didn’t know which icon correlated to outdoor thermal comfort (person icon). Didn’t know what unit is, predicted percentage dissatisfied is in % but thought was degrees (celsius).
+
+able to identify relationships (correlations) by toggling between tabs. suggested having vertical tab layout to be able to see multiple graphs at the same time.","able to identify data and time steps
+also realized correlations
+
+could be nice to have tabs expand vertically and might be easier to match up one to one
+
+confused about different shapes for markers (not different enough?)","able to identify data and time steps
+found units but unclear what it represents. what is predicted percentage dissatisfied?
+
+like that the numerical data hover calls out the specific numbers upon hover
+
+can zoom in/out of axes
+
+noticed that the scale for temperature is different from irradiation (one is 24 hr and the other is 7:00 to 19:00).
+
+could be interesting to add a sun diagram for solar irradiation, so people can more intuitively understand what where the sun is/ or even incorporate sun/shade studies.","could be nice to have slider to adjust temperature/ filter out hot/extremes. Or even some support to locate the hottest/coldest hours
+
+noticed that air temp, solar irradiation & ppd are related
+
+wondered if humidity could have a different color scale. Currently a bit confusing.
+
+some more context on PPD could be interesting. And why was PPD the metric that was chosen (as opposed to UTCI).
+
+If the weather station window could be resized that would be nice as well.
+
+wondered what the difference between square and circle markers","able to identify data and time steps
+
+also switched between tabs and noted the inverse correlation between air temperature and humidity, and also a lot of relationships between temperature and thermal comfort
+
+suggested that some of the data is less useful (night time where there is less variation). Could be useful to separate day and night.
+
+discovered the ability to lasso to zoom in, would like to see this functionality explained in more details
+
+personally expected the weather station modal to update in place when clicked instead of launching a new modal (multiple pop-ups), also they are on top of each other which people might miss the ability to have multiple.
+
+would like to be able to expand the segmented image, and to have a human figure for scale","immediately recognized that can drag the modals around and compare them. Opened 3 modals, and pointed out that the conditions are very similar
+
+wondered how the microclimate maps are produced
+
+can the scale range be broadened to human comfort range. The blue areas are at the lower end of the scale but they are still very hot (29 degrees)
+
+confused about the difference between circle and square markers
+
+able to identify the hotter times across all three weather stations, and noted that there’s high correlation between trends among weather stations
+
+noted correlation between irradiation & temperature, as well as the surroundings impact on weather stations (lack of shade = higher temperatures)
+
+could be useful to export this data, and would like conversion between different units
+
+need a scale to tell the size. how big is the campus?","would like to know more about the period of collection for wind data (how is it averaged into a wind rose?)
+
+didn’t realize that multiple pop-ups can be present and they can be dragged around and compared
+
+start time on temperature graphs are a bit unclear
+
+stacked the graphs on top of each other
+
+was able to locate thermal comfort tab and carry out analysis. however, thought that perceived percentage dissatisfied was in degrees celsius and only realized it was % after prompted to look at night time (numbers too low to be degrees)
+
+noted that thermal comfort related to air temperature. timing comparison can be confusing because irradiance only for the daytime but others are for 24 hours.
+
+not sure about wind speed with regards to time.","clicked through the tabs, at first unsure which one was thermal comfort. described data is in hourly intervals, but a bit uncertain how to interpret predicted percentage dissatisfied. Would be good to provide more information. Questioned how the data is collected as well. (Describe both what the metric is and how it is computed)
+
+Also noted that it’s confusing the hours start from the bottom (1am) and go towards the top (11pm), which is different from normal expectations.
+
+Able to identify that there’s high correlation between air temperature and thermal comfort. Mentioned that appreciates the responsiveness of the toggles.
+
+","clicked to open different weather stations, dragged them around for comparison
+
+explored date picker, but past data wasn’t available (should disable unavailable data)?
+
+also clicked on the tabs for different metrics
+
+had difficulty navigating to personal comfort tab
+
+found data relatively clear, but the pixelation is a bit abstract. able to identify the hottest periods, and noted that higher value probably meant less comfortable. However, unable to identify what the metric was (%) or what Predicted Percentage Dissatisfied (PPD) means.
+
+able to identify strong correlation between air temperature and outdoor discomfort. Also noted that higher discomfort correlated with lower humidity, which was shocking in context for NYC. Researcher explained that air temperature is dominant source in thermal comfort."
+microclimate maps,"fixed scale and dynamic scale is confusing, need more explanation.
+
+initially preferred dynamic scale
+
+time interval is confusing, not clear that the maps are by months.
+nested structure makes side bar hard to navigate
+
+indices need to be more clearly documented. for example wasn’t sure what is TMRT, and why it’s important","able to start the simulation without any prompt.
+
+noticed that things are changing. not sure what ppd means, found the “change map” bar a bit confusing.
+
+able to identify time period (by month)
+
+dynamic scale v. fixed scale: prefer fixed scale, which makes it easier to compare across months.
+
+changing from blue to red can be a bit confusing, white blends with the background.
+
+noticed that hot spots persist across time","able to start simulation
+
+predicted percentage dissatisfied identified correctly
+
+was a bit confused by dynamic scale: can see the importance having both scales, but this feature is quite advanced and require some familiarity with this platform
+
+able to identify hot spot, and hypothesize it is due to lack of trees and lots of pavement
+
+","seeing average temperature: very small scale
+
+avg’d by month, the display of month can be made clearer. should also provide more information about how this is calculated.
+
+able to start the simulation, and noticed slight seasonal shift, impact of trees
+
+would be interested to see roof images
+
+noticed that there’s a correlation between hot spots and lack of greenery","not clear what time period this data is from
+
+noted that data is a bit surprising (not as hot as she expected Singapore to be). Difficult to understand how data is aggregated, wished that there was more context behind the results
+
+would like to just see the outlines of tree as to not obscure the maps (currently they are solid patches)
+
+fixed scale should be fixed across daytime & night time, only being fixed within day/night can be confusing. having dynamic scale is still great. fixed needs to be more fixed
+
+Noted that a certain field (in the north) is hot during the day due to a lack of vegetation, and at night some region between buildings are hot because they are radiating off heat gains from the day.","dynamic scale/ fixed scale can be confusing. prefer dynamic for default scale, because then users can immediate understand “what is hot”. second order question is “how does it change”
+
+what’s hot what’s not? maybe dynamic scale to start, then switch to fixed scale.
+
+Able to identify hot spots, and hypothesized that it might be caused by the lack of trees/shading
+
+would be nice to see the roads to understand pedestrian usage","was initially confused by if the microclimate map was a simulation, but quickly found the start button to play the microclimate map from different months
+
+temperature scale range should be set where cold is cold, warm is warm. That is, confusing how the lower range is always shown as blue even though in Singapore the lower range is still hot. Having a set scale across all regions could also be nice if people want to compare results between different cities (like Singapore v. NYC)
+
+platform crashed/ stopped responding
+
+color scale options depend on users, perhaps have fixed scale as the default and allow users to change to dynamic (if they are a bit more knowledgeable about the data and what they are doing). Also scale needs to be fixed between night & day.
+
+Successfully identified hot spots, and hypothesized that it was due to materiality. Guessed that it was a field.","identified that they were seeing microclimate map across 12 hours, can toggle between daytime & nighttime data.
+
+daytime & nighttime should have consistent legend bar (legend should be fixed across day and night time!)
+
+prefer dynamic scale over fixed scale, but maybe less experienced users would benefit from a fixed scale because it’s more consistent
+
+identified hot spot and hypothesized that it’s hot because lack of shading. no shelter or shade.","first noticed scale at bottom right, it blends into the background → maybe put a white background behind it
+
+would prefer static scale. It can be very difficult to interpret results if the scale is constantly changing.
+
+Need some explanation of what the dynamic v. static scale is and do. Commented that dynamic scale highlights contrast.
+
+without prompting started analyzing the relationship between measurements and materiality/trees.
+
+wondered if for singapore could incorporate dataset of covered walkways? This greatly impacts thermal comfort of pedestrians.","played simulation, then toggled between day time and night time. 
+
+Struck by the extreme color changes over time. 
+
+A bit confused what day/night demarcations are. Need notes for what hours 
+
+There’s only one option under change map, which is confusing (because there are no other options to change).
+
+Hard to see the map with trees, but would like the option to see them since it’s highly correlated with heat.
+
+identified hot spots, and guessed it’s related to greenery, materiality, land use (parking lot?)
+
+location abstract given that never been to the Singapore. a layer of uses/ information could be helpful (synthesis of information important for his work)"
+thermal walk,"clicked through different runs, wanted to choose a long segment to see the most information
+
+was prompted to see the play button
+
+hard to see the entire survey modal, want more demographic details (young/old)
+
+better wording between run/walk
+
+confused about segmented image, initially though colors correlated heat
+
+need key for the colors of watches
+
+confusion between data on surveys and measured data. would be great to have links between these two (if click on survey data, also show where that point is on the thermal walk). also want to have composite person, or ability to see thermal comfort of different demographics
+
+able to play a thermal walk, but prompted
+difficulty to find survey results, but found it
+unclear about the intervals of","difficulty to see the  survey modal
+
+initially thought the watch colors are related to heart rate, confused why the watch icons are located where they are
+
+hard to see segmentation breakdown (only the base is level, the rest start differently and this can be very confusing)
+
+noticed relationship between sky percentage and thermal comfort
+
+Hard to see correlations between surveys and objective data. The surveys snapshots in time while the weather data is continuous.
+
+would like to see more personal data like heart rate","would be nice to have consistent UI (start and end button instead of a play icon)
+
+also a bit confused about watch icons
+
+person a bit out of sync with the play button
+
+green: positive, red negative
+
+think this data is helpful, would like to know more about demographic data
+
+ideally would have different demographics on the same route for helpful comparison","nice to turn off segmentation (would like to see street view), nice to be able expand the image
+
+interesting that people were not not considered in the image segmentation, curious how much does this impact the models
+
+would like more explanatory text, or even a legend/pop up that gives users more context.
+
+can you see all of walks in one place?
+
+nice to know where the thermal walks were done","a bit of difficulty navigating to the survey results (too long, hard to drag out)
+
+a bit confused about the color of the watches
+
+could be interesting to have different transportation methods? data beyond just walking
+
+want more context on perceived thermal comfort index (also would be useful it this data can be overlayed onto the microclimate map) => can be more impactful for feedback response
+
+if there’s routing simulation that would be helpful because then people can prioritize the comfort of the most used streets. understand demographics & population/cultural impact would also be important.
+
+Recognize that the thermal walk data might be a bit difficult to navigate and use in synthesis for someone who’s less experienced in data-driven design. More traditional information like microclimate maps might be more helpful to them.
+
+urban topology also impacts subjective perception, and could be interesting to include related information.
+
+image is the most helpful (tree shade/ human component) to understand the locations
+
+small factors like AC spilling out of buildings also impact comfort, would be great to capture that as well.","run/walk wording can be a bit confusing (ambiguity)
+
+appreciate this feature because allows him to experience the city
+
+a bit hard to coordinate the pop-ups (too long), no way to close the modal with weather station data, thus hard to compare them for insights
+
+too many things to compares. shortening the survey can be nice, also would like the ability to expand the segmented image.
+
+data & representation is good, need more insights. This platform need to help people to synthesis data into takeaways. There could be a lot of potential for AI applications: can an AI generate quick insights? For example, when looking at temperature data, point out where the hottest day/hour is.","wondered how the data is collected, and inquired further about the app used (Cozie)
+
+Wanted to see the thermal walk in conjunction to microclimate map. Since the functionality is not yet available, took a screen shot of the microclimate map on his computer to compare with perceived comfort
+
+would be nice to see microclimate map layered with thermal walk (synthesis)
+
+noticed that there solar radiation varies greatly and people don’t perceive extreme heat until they are consistently exposed to high solar radiation for more than 10mins. (When they are switching quickly between shaded locations and unshaded locations people are actually not so hot)
+
+would like to see information on broader context, for example, a corner blurb  for Singapore weather forecast
+
+","data useful, but very difficult to collect/reproduce for real-world practitioners
+
+can the personal data be more linked with the objective data, can be hard to switch back and forth between the route and charts
+would be nice to be connected to urban feature
+
+could be interesting to know terrain factors
+
+hard to understand correlation between specific comfort surveys and temperature (missing the activity component: how quickly are they walking/ route strenuous or not?)
+
+however, think that human subjective feedback can be great for calibrating thermal maps/ indices regarding walkability","noted segmented imagery, really great to see street view. perhaps need to have some explanation text for people less familiar with this kind of data.
+
+confused about the interval of the surveys, need more explanation. Also struggled to see the entire survey result panel.
+
+could individual walk data be generalized/synthesized into map format? even tree/greenery percentage map is interesting too.","want more flexibility in moving pop-ups, had trouble seeing survey results
+
+also not sure about research methodologies, would love to know more about it.
+
+pretty easy to navigate and move around, happy there’s a quick response speed in navigation/ user actions (toggles/ clicks)
+
+would like to know more about the charts - how are they generated, what does the data say?
+
+see some correlation between perceived thermal comfort & weather station temperature. And able to identify the impact of the built environment on thermal comfort, segmented image reveals the presence of shade"
+additional notes,"really drawn to hot spot study (real world impacts). Not clear what they’re looking at. Need some pointers to where to look.
+
+Also would want explanation on what the studies are.
+
+really appreciate seeing what’s possible to measure. Data can provide a lot of insights and quantitative information to highlight issues.","would like to be able to download the data
+data is the most important","no way to download the data?
+
+for researcher being able to take the data for their own research is important
+
+but it can be improved in terms specificity (target specific demographics/ or have better engagement with researcher)
+
+for policy makers they are more result focused. “tell me if this is good or bad”
+
+short/descriptive/bite-sized takeaways
+
+tools be able to synthesize information (automate the tasks used in this research) → having an agent could be super interesting","time period/ resolution would be important for site understanding
+
+ability for users to upload their own thermal walks (can this be done through cameras on a phone?)
+
+Very interesting tool and something that could really help inform how we experience and potentially design our spaces. Needs some work and relies on fixed weather station data which seems quite dense for the campus, but may not be as dense in other locations. Would love to see information for street vs. roof level. Greater explanation of outdoor thermal comfort and the practical implications of that on how people might move through the space would also be very useful.","not so focused on user interface because there are a lot of similar tools that are much more clunky
+
+instead most interested in having the data needs, and the ability to show people the impacts of decisions and how it links to their goals/narratives",,,"overall easy to understand/ make sense of this platform (minimum resistance)
+
+there’s a lot of opportunity to synthesize information from sensors (can you show the hottest ones in a different color), make information more digestible for non-expert users
+
+be able to download data
+
+is there a better to organize information in a categorical way (by weather stations/ thermal cameras/simulated results ?) so users can find info they want more quickly
+
+sometimes the maps have too much info, maybe highlighting hot zone/ cold zone could be enough
+
+trees are opaque (2D info is sufficient)","ui and engagement are most important for his work. Now there’s a lot of data but there needs more work to be done in translating data into insights.
+
+trust building is super important in terms of adoption.
+
+A lot more contextualization (e.g. metadata tabs that show where data sources come from, unit labels, guidance in interpreting data) would help me better understand what I am looking it while also building trust!","need different components for different contexts
+
+this ranking is for daily design work
+
+The data sources are not manifestly clear."
+ranking,data > UI > Analysis > Stakeholder Engagement,Analysis > Data > UI > Stakeholder Engagement,data > UI > Analysis > Stakeholder Engagement,Analysis > Stakeholder Engagement > UI > data,data > stakeholder engagement > analysis > UI,Analysis > UI > Stakeholder Engagement > Data,data > UI > Stakeholder Engagement > Analysis,stakeholder engagement > UI > data > analysis,user interface = stakeholder engagement > data > analytical tools,analysis > data > ui >stakeholder engagement
